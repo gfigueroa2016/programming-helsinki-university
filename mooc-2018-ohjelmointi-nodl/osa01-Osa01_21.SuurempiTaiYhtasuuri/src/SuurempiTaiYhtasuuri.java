@@ -13,20 +13,17 @@ public class SuurempiTaiYhtasuuri {
         System.out.println("Anna toinen luku: ");
         int luku2 = Integer.parseInt(lukija.nextLine());
 
-        if (luku1 > luku2) {
+        if (luku1 < luku2) {
 
-            System.out.println("Anna ensimmäinen luku: " + luku1 + "\nAnna toinen luku: " + luku2 + "\n\n"
-                + "Suurempi luku: " + luku1);
+            System.out.println("\n\nSuurempi luku: " + luku2);
 
-        } else if (luku1 < luku2) {
+        } else if (luku1 > luku2) {
 
-            System.out.println("Anna ensimmäinen luku: " + luku1 + "\nAnna toinen luku: " + luku2 + "\n\n"
-                + "Suurempi luku: " + luku2);
+            System.out.println("\n\nSuurempi luku: " + luku1);
 
         } else {
 
-            System.out.println("Anna ensimmäinen luku: " + luku1 + "\nAnna toinen luku: " + luku2 + "\n\n"
-                    + "Luvut ovat yhtä suuret!");
+            System.out.println("\n\nLuvut ovat yhtä suuret!");
 
         }
 

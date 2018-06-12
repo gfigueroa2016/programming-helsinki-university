@@ -42,9 +42,9 @@
 init:
 
 -deps-jar-init:
+   [delete] Deleting: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/built-jar.properties
 
 deps-jar:
-    [mkdir] Created dir: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build
 
 -warn-already-built-jar:
 [propertyfile] Updating property file: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/built-jar.properties
@@ -56,7 +56,6 @@ deps-jar:
 -verify-automatic-build:
 
 -pre-pre-compile:
-    [mkdir] Created dir: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/classes
 
 -pre-compile:
 
@@ -65,8 +64,6 @@ deps-jar:
 -compile-depend:
 
 -do-compile:
-    [mkdir] Created dir: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/empty
-    [mkdir] Created dir: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/generated-sources/ap-source-output
     [javac] Compiling 1 source file to /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/classes
 
 -post-compile:
@@ -74,18 +71,16 @@ deps-jar:
 compile:
 
 -pre-pre-compile-test:
-    [mkdir] Created dir: /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/test/classes
 
 -pre-compile-test:
 
 -compile-test-depend:
 
 -do-compile-test:
-    [javac] Compiling 1 source file to /Users/gabrielfigueroa/opt/Repositories/github/programming-helsinki-university/mooc-2018-ohjelmointi-nodl/osa01-Osa01_21.SuurempiTaiYhtasuuri/build/test/classes
 
 -post-compile-test:
 
 compile-test:
 
 BUILD SUCCESSFUL
-Total time: 1 second
+Total time: 0 seconds
