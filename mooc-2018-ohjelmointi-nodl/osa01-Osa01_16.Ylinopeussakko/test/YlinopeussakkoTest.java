@@ -36,7 +36,7 @@ public class YlinopeussakkoTest {
 
         assertTrue("Et kysynyt käyttäjältä mitään!", out.trim().length() > 0);
 
-        if (luku > 120) {
+        if (luku > 121) {
             assertTrue("Tulosteessasi pitäisi olla teksti \"Ylinopeussakko!\", kun annettu luku on "
                     + luku + ", nyt ei ollut. Tulosteesi oli: " + out, 
                     out.contains("sakko"));

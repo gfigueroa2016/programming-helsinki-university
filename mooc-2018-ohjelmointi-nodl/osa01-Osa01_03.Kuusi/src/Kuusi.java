@@ -5,7 +5,12 @@ public class Kuusi {
         // Tee tänne tehtävänannon mukainen ohjelma
 
 
-        System.out.println("*");
+        System.out.println("    *    \n"
+                + "   ***   \n"
+                + "  *****  \n"
+                + " ******* \n"
+                + "*********\n"
+                + "    *    ");
     }
 
 }

@@ -52,7 +52,7 @@ public class Jakolaskin extends Application {
             }
 
             // tehdään jakolasku
-            int osamaara = luku1 / luku2;
+            double osamaara = (double)luku1 / (double)luku2;
 
             // asetetaan teksti laskutuloksen näyttävään kenttään
             osamaaraTeksti.setText(luku1 + " / " + luku2 + " = " + osamaara);

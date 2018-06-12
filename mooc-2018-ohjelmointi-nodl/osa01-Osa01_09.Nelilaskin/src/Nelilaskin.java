@@ -6,6 +6,9 @@ public class Nelilaskin {
         int toka = 3;
 
         System.out.println(eka + " + " + toka + " = " + (eka + toka));
+        System.out.println(eka + " - " + toka + " = " + (eka - toka));
+        System.out.println(eka + " * " + toka + " = " + (eka * toka));
+        System.out.println(eka + " / " + toka + " = " + (eka / toka));
 
         // Toteuta loput nelilaskimesta tähän.
     }

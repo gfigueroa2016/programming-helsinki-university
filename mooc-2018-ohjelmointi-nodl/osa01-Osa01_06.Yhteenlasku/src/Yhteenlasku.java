@@ -7,7 +7,7 @@ public class Yhteenlasku {
         int a = 1337;
         int b = 42;
 
-        int tulos = 0; // KORJAA TÄMÄ
+        int tulos = a + b; // KORJAA TÄMÄ
 
         // ÄLÄ KOSKE NÄIHIN
         String tuloste = a + " + " + b + " = " + tulos;

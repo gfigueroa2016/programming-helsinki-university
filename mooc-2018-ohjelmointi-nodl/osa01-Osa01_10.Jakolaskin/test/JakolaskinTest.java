@@ -69,7 +69,7 @@ public class JakolaskinTest extends ApplicationTest {
         clickOn("#nappi");
 
         try {
-            verifyThat("#osamaara", hasText(containsString("21.")));
+            verifyThat("#osamaara", hasText(containsString("21.0")));
         } catch (Throwable t) {
             fail("Kun laskettiin jakolaskua 42 / 2, laskun tulos ei ollut 21.0");
         }

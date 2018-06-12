@@ -8,6 +8,12 @@ public class Kertolasku {
 
         // Toteuta ohjelmasi tähän -- ota tarvittaessa mallia 
         // edellisestä tehtävästä. Muista käyttää muuttujia a ja b!
+        
+        int tulos = a * b; // KORJAA TÄMÄ
+
+        // ÄLÄ KOSKE NÄIHIN
+        String tuloste = a + " * " + b + " = " + tulos;
+        System.out.println(tuloste);
     }
 
 }
