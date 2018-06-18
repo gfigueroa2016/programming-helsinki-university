@@ -4,7 +4,22 @@ import java.util.Scanner;
 public class ParitonVaiParillinen {
 
     public static void main(String[] args) {
+        
         Scanner lukija = new Scanner(System.in);
+        
+        System.out.println("Enter chapter: ");
+        int luku = Integer.parseInt(lukija.nextLine());
+        int mod = luku % 2;
+        
+        if (mod == 0) {
+            
+            System.out.println("Luku " + luku + " on parillinen");
+            
+        } else {
+            
+            System.out.println("Luku " + luku + " on pariton");
+            
+        }
 
         // Toteuta ohjelmasi tähän. 
         

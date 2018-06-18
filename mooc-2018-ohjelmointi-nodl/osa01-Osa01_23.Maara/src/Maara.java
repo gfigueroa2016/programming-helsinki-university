@@ -34,9 +34,17 @@ public class Maara extends Application {
         liukuri.valueProperty().addListener((ObservableValue<? extends Number> ov, Number oldValue, Number newValue) -> {
             int arvo = newValue.intValue();
 
-            if (arvo > 90) {
-            teksti.setText("Liikaa!");
-            }
+            if (arvo == 0) {
+            teksti.setText("Ei lainkaan.");
+            } else if (arvo >= 1 && arvo <= 25) {
+            teksti.setText("Vähän.");
+            } else if (arvo >= 26 && arvo <= 74) {
+            teksti.setText("Kohtalaisesti.");
+            } else if (arvo >= 75 && arvo <=99) {
+            teksti.setText("Paljon.");
+            } else {
+            teksti.setText("Kaikki.");
+            } 
         });
 
         // lisätään luodut elementit käyttöliittymään

@@ -8,18 +8,18 @@ public class Summaaja {
         int summa = 0;
         int luettujaLukuja = 0;
 
-        System.out.print("Anna summattavia lukuja: ");
         while (true) {
+            System.out.print("Anna summattavia lukuja: ");
             int luettu = Integer.parseInt(lukija.nextLine());
-            luettujaLukuja = luettujaLukuja + 1;
-            if (luettujaLukuja == 5) {
+            luettujaLukuja = summa;
+            if (luettu == 0) {
                 break;
             }
 
             summa += luettu;
         }
 
-        System.out.println("Summa lopussa: " + summa);
+        System.out.println("Summa lopussa: " + luettujaLukuja);
 
     }
 }
