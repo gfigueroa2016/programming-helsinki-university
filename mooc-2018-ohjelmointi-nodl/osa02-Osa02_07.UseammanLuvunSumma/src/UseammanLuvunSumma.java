@@ -13,7 +13,7 @@ public class UseammanLuvunSumma {
             if (luettu == 0) {
                 break;
             }
-
+            summa += luettu;
             // TEE JOTAIN TÄÄLLÄ
         }
 

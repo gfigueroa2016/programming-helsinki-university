@@ -12,4 +12,7 @@ public class Jakolasku {
     }
 
     // luo metodi tänne
+    public static void jakolasku(int osoittaja, int nimittaja){
+        System.out.println(osoittaja / nimittaja);
+    }
 }

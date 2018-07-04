@@ -49,8 +49,16 @@ public class PlaseerausOnEpatoivoista extends Application {
             int vieraita = Integer.parseInt(vieraitaKentta.getText());
             // long-tyyppiseen muuttujaan mahtuu hieman isompia lukuja kuin
             // int-tyyppiseen muuttujaan
-            long vaihtoehtoja= 0;
-
+            long vaihtoehtoja= 1;
+            int i = 0;
+            while (true) {
+                if (i < vieraita) {
+                    i++;
+                    vaihtoehtoja *= i;
+                } else {
+                    break;
+                }
+            }
             vaihtoehtojaArvoTeksti.setText(" " + vaihtoehtoja);
         });
 

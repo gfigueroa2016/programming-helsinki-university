@@ -45,9 +45,25 @@ public class Puisevaa extends Application {
     // Oma piirra-metodimme, jonne toteutetaan piirtotoiminnallisuus
     public static void piirra(GraphicsContext piirturi) {
 
-        // viivan piirtäminen kohdasta (0,0) kohtaan (100, 100)
-        piirturi.strokeLine(0, 0, 100, 100);
+        int i = 0;
+        int palitoX = 106;
+        int circuloX = 40;
+        int palitoXTotal = 0;
+        int circuloXTotal = 0;
 
+        while (i < 5) {
+
+            i++;
+            piirturi.strokeRect(palitoXTotal = palitoXTotal + palitoX, 200, 0, 220);
+            piirturi.strokeOval(circuloXTotal = palitoXTotal - circuloX, 120, 80, 
+                    80);
+            
+        }
+        
+        piirturi.strokeRect(0, 400, 640, 0);
+        piirturi.strokeRect(0, 400, 0, 80);
+        piirturi.strokeRect(640, 400, 0, 80);
+        
     }
 
 }
