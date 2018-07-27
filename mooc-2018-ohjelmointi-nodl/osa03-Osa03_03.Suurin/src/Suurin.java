@@ -3,7 +3,13 @@ public class Suurin {
 
     public static int suurin(int luku1, int luku2, int luku3) {
 
-        return -1;
+        if (luku1 > luku2 && luku1 > luku3){
+            return luku1; 
+        } else if (luku2 > luku1 && luku2 > luku3) {
+            return luku2;
+        } else {
+            return luku3;
+        }
     }
 
     public static void main(String[] args) {
